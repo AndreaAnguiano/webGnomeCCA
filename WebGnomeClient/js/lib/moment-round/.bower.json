@@ -1,0 +1,22 @@
+{
+  "name": "moment-round",
+  "version": "1.0.2",
+  "main": "./dist/moment-round.min.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "dependencies": {
+    "moment": ">= 2"
+  },
+  "_cacheHeaders": {
+    "ETag": "W/\"31e1668fad6520faad6b0229bd23c2bf0de94fbd0747c453a0363717510e74d3\"",
+    "Content-Type": "application/zip",
+    "Content-Disposition": "attachment; filename=moment-round-master.zip"
+  },
+  "_release": "e-tag:W/\"31e1668",
+  "_source": "https://github.com/NOAA-ORR-ERD/moment-round/archive/master.zip",
+  "_target": "*",
+  "_originalSource": "https://github.com/NOAA-ORR-ERD/moment-round/archive/master.zip"
+}

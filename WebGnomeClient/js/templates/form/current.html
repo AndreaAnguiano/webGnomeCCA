@@ -1,0 +1,93 @@
+
+<div class="form-horizontal">
+    <div class="form-group">
+        <label for="name" class="control-label col-sm-3">Name:</label>
+        <div class="col-md-5">
+            <input type="text" id="name" value="{{ name }}" class="form-control">
+        </div>
+    </div>
+</div>
+
+
+<ul class="nav nav-tabs wind">
+
+    <li class="hycom">
+        <a href="#hycom" data-toggle="tab">HYCOM Forecast</a>
+    </li>
+    <li class="fvcom">
+        <a href="#fvcom" data-toggle="tab">FVCOM Forecast</a>
+    </li>
+
+    <li class="upload_form">
+        <a href="#upload_form" data-toggle="tab">Uploads</a>
+    </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane" id="hycom">
+        <p>hycom test.</p>
+        <div id="wind-form-map" class="map"></div>
+        <div class="form-horizontal">
+            <div class="form-group">
+                <div class="col-sm-2">
+                    <label for="lon" class="control-label">Longitude:</label>
+                </div>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" name="lon" id="lon" title="165.4064W<br/>(decimal degrees)<br/>165 24.384W<br/>(degrees decimal minutes)<br/>165 24 23.04W<br/>(degrees minutes seconds)"/>
+                </div>
+                <div class="col-sm-2">
+                    <sup class="lon-parse"> </sup>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-2">
+                    <label for="lat" class="control-label">Latitude:</label>
+                </div>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" name="lat" id="lat" title="64.5011N<br/>(decimal degrees)<br/>64 30.066N<br/>(degrees decimal minutes) <br/>64 30 3.96N<br/>(degrees minutes seconds)"/>
+                </div>
+                <div class="col-sm-2">
+                    <sup class="lat-parse"> </sup>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tab-pane" id="fvcom">
+        <p>fvcom test</p>
+        <div id="wind-form-map" class="map"></div>
+        <div class="form-horizontal">
+            <div class="form-group">
+                <div class="col-sm-2">
+                    <label for="lon" class="control-label">Longitude:</label>
+                </div>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" name="lon" id="lon" title="165.4064W<br/>(decimal degrees)<br/>165 24.384W<br/>(degrees decimal minutes)<br/>165 24 23.04W<br/>(degrees minutes seconds)"/>
+                </div>
+                <div class="col-sm-2">
+                    <sup class="lon-parse"> </sup>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-2">
+                    <label for="lat" class="control-label">Latitude:</label>
+                </div>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" name="lat" id="lat" title="64.5011N<br/>(decimal degrees)<br/>64 30.066N<br/>(degrees decimal minutes) <br/>64 30 3.96N<br/>(degrees minutes seconds)"/>
+                </div>
+                <div class="col-sm-2">
+                    <sup class="lat-parse"> </sup>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tab-pane" id="upload_form">
+        <div class="dropzone"></div>
+        <div>
+            <label>
+                <input type="checkbox" id="persist_upload">
+                save file for later
+            </label>
+        </div>
+    </div>
+</div>

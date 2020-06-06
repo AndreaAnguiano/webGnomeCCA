@@ -1,0 +1,35 @@
+{
+    "geometry": {
+        "coordinates": [
+            -95.01622889,
+            25.97096444
+        ]
+    },
+    "steps": [
+      {
+          "type": "welcome",
+          "name": "Pemex 1",
+          "buttons": "<button type='button' class='cancel' data-dismiss='modal'>Cancelar</button><button type='button' class='next'>Siguiente</button>",
+                	"body": "<p>Necesitarás hacer lo siguiente para configurar WebGNOME-CCA en Pemex 1: </p><ol><li>Configurar los parámetros del modelo.</li><li>Introducir datos del campo de viento.</li></ol>"
+      },
+      {
+          "type": "model",
+          "title": "Configuración del modelo",
+          "buttons": "<button type='button' class='cancel' data-dismiss='modal'>Cancelar</button><button type='button' class='back'>Atrás</button><button type='button' class='next'>Siguiente</button>"
+      },
+
+      {
+          "type": "text",
+          "title": "Viento",
+          "buttons": "<button type='button' class='cancel' data-dismiss='modal'>Cancelar</button><button type='button' class='back'>Atrás</button><button type='button' class='next'>Siguiente</button>",
+          "body": "<p>El viento puede influir significativamente en el movimiento del petróleo.</p><p>La siguiente forma tiene diferentes opciones para cargar el campo de viento. Puedes: <ul><li>Introducir valores para un viento constante en una dirección y velocidad para todo el modelo.</li><li>Introducir valores para un viento que cambia en dirección y/o velocidad en el tiempo.</li>Link directo a los datos del pronóstico del WRF.</li><li>Subir un archivo con datos.</li></ul></p>"
+      },
+      {
+          "type": "wind"
+      },
+      {
+          "type": "finish"
+      }
+    ],
+    "name": "Pemex 1, TM"
+}

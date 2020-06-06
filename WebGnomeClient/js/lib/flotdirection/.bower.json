@@ -1,0 +1,13 @@
+{
+  "name": "flotdirection",
+  "homepage": "https://github.com/NOAA-ORR-ERD/jquery-flot-direction",
+  "_release": "abe96f2bd8",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "abe96f2bd8342dc873d0e51cc3b38dd12de9c5d1"
+  },
+  "_source": "https://github.com/NOAA-ORR-ERD/jquery-flot-direction.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/NOAA-ORR-ERD/jquery-flot-direction.git"
+}

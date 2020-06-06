@@ -1,0 +1,8 @@
+{
+  "name": "jquery-flot-direction",
+  "version": "1.0.0",
+  "description": "This plugin can help you to draw your data that have dirction or other secondary data value like wind.",
+  "author": "atlant2011",
+  "license": "MIT",
+  "repository": "https://github.com/NOAA-ORR-ERD/jquery-flot-direction"
+}

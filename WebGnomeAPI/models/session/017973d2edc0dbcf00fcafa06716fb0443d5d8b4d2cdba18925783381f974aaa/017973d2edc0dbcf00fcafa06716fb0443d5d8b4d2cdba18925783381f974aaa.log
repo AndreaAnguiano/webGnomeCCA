@@ -1,0 +1,35 @@
+2020-03-29 22:36:38,448 INFO  k1iK730_tTybjtgSCh61SpgQ9aU= [webgnome_api.views.model] >>req(140318312458320): update_model():
+2020-03-29 22:36:38,449 INFO  k1iK730_tTybjtgSCh61SpgQ9aU= [webgnome_api.views.model]   req(140318312458320): update_model(): session lock acquired (sess:140318312080048, thr_id: 140318958826880)
+2020-03-29 22:36:38,453 INFO  k1iK730_tTybjtgSCh61SpgQ9aU= [gnome.model.Model] 18610 - rewound model - Model
+2020-03-29 22:36:38,454 INFO  k1iK730_tTybjtgSCh61SpgQ9aU= [gnome.model.Model] 18610 - rewound model - Model
+2020-03-29 22:36:38,456 INFO  k1iK730_tTybjtgSCh61SpgQ9aU= [gnome.model.Model] 18610 - rewound model - Model
+2020-03-29 22:36:38,457 INFO  k1iK730_tTybjtgSCh61SpgQ9aU= [gnome.model.Model] 18610 - rewound model - Model
+2020-03-29 22:36:38,458 INFO  k1iK730_tTybjtgSCh61SpgQ9aU= [gnome.model.Model] 18610 - rewound model - Model
+2020-03-29 22:36:38,462 INFO  k1iK730_tTybjtgSCh61SpgQ9aU= [gnome.model.Model] 18610 - rewound model - Model
+2020-03-29 22:36:38,463 INFO  k1iK730_tTybjtgSCh61SpgQ9aU= [gnome.model.Model] 18610 - rewound model - Model
+2020-03-29 22:36:38,464 INFO  k1iK730_tTybjtgSCh61SpgQ9aU= [gnome.model.Model] 18610 - rewound model - Model
+2020-03-29 22:36:38,465 INFO  k1iK730_tTybjtgSCh61SpgQ9aU= [gnome.model.Model] 18610 - rewound model - Model
+2020-03-29 22:36:38,468 INFO  k1iK730_tTybjtgSCh61SpgQ9aU= [webgnome_api.views.model]   req(140318312458320): update_model():session lock released...
+2020-03-29 22:36:38,469 INFO  k1iK730_tTybjtgSCh61SpgQ9aU= [webgnome_api.views.model] <<req(140318312458320): update_model():
+2020-03-29 22:36:39,107 INFO  k1iK730_tTybjtgSCh61SpgQ9aU= [webgnome_api.views.model] >>req(140318312459088): update_model():
+2020-03-29 22:36:39,109 INFO  k1iK730_tTybjtgSCh61SpgQ9aU= [webgnome_api.views.model]   req(140318312459088): update_model(): session lock acquired (sess:140318312080048, thr_id: 140318958826880)
+2020-03-29 22:36:39,115 INFO  k1iK730_tTybjtgSCh61SpgQ9aU= [gnome.model.Model] 18610 - rewound model - Model
+2020-03-29 22:36:39,117 INFO  k1iK730_tTybjtgSCh61SpgQ9aU= [gnome.model.Model] 18610 - rewound model - Model
+2020-03-29 22:36:39,119 INFO  k1iK730_tTybjtgSCh61SpgQ9aU= [gnome.model.Model] 18610 - rewound model - Model
+2020-03-29 22:36:39,121 INFO  k1iK730_tTybjtgSCh61SpgQ9aU= [gnome.model.Model] 18610 - rewound model - Model
+2020-03-29 22:36:39,123 INFO  k1iK730_tTybjtgSCh61SpgQ9aU= [gnome.model.Model] 18610 - rewound model - Model
+2020-03-29 22:36:39,127 INFO  k1iK730_tTybjtgSCh61SpgQ9aU= [gnome.model.Model] 18610 - rewound model - Model
+2020-03-29 22:36:39,128 INFO  k1iK730_tTybjtgSCh61SpgQ9aU= [gnome.model.Model] 18610 - rewound model - Model
+2020-03-29 22:36:39,129 INFO  k1iK730_tTybjtgSCh61SpgQ9aU= [gnome.model.Model] 18610 - rewound model - Model
+2020-03-29 22:36:39,130 INFO  k1iK730_tTybjtgSCh61SpgQ9aU= [gnome.model.Model] 18610 - rewound model - Model
+2020-03-29 22:36:39,134 INFO  k1iK730_tTybjtgSCh61SpgQ9aU= [webgnome_api.views.model]   req(140318312459088): update_model():session lock released...
+2020-03-29 22:36:39,135 INFO  k1iK730_tTybjtgSCh61SpgQ9aU= [webgnome_api.views.model] <<req(140318312459088): update_model():
+2020-03-30 10:50:09,431 DEBUG k1iK730_tTybjtgSCh61SpgQ9aU= [geventwebsocket.handler] Closed WebSocket
+2020-03-30 10:50:55,527 DEBUG k1iK730_tTybjtgSCh61SpgQ9aU= [socketio.virtsocket] heartbeat timed out, killing socket
+2020-03-30 10:50:55,528 DEBUG k1iK730_tTybjtgSCh61SpgQ9aU= [socketio.virtsocket] Calling disconnect() on sessid='134364244112' client_queue[4] server_queue[1] hits=1
+2020-03-30 10:50:55,530 DEBUG k1iK730_tTybjtgSCh61SpgQ9aU= [socketio.virtsocket] Removing sessid='134364244112' client_queue[5] server_queue[1] hits=1 from server sockets
+2020-03-30 13:35:02,332 INFO  k1iK730_tTybjtgSCh61SpgQ9aU= [webgnome_api.views.model]   session lock acquired (sess:140318312080048, thr_id: 140318958826880)
+2020-03-30 13:35:02,339 INFO  k1iK730_tTybjtgSCh61SpgQ9aU= [webgnome_api.views.model]   session lock released (sess:140318312080048, thr_id: 140318958826880)
+2020-03-30 13:35:02,403 INFO  k1iK730_tTybjtgSCh61SpgQ9aU= [webgnome_api.views.socket_step]   session lock acquired (sess:140318312080048, thr_id: 140318958826880)
+2020-03-30 13:35:02,405 INFO  k1iK730_tTybjtgSCh61SpgQ9aU= [gnome.model.Model] 18610 - rewound model - Model
+2020-03-30 13:35:02,406 INFO  k1iK730_tTybjtgSCh61SpgQ9aU= [webgnome_api.views.socket_step]   session lock released (sess:140318312080048, thr_id: 140318958826880)

@@ -1,0 +1,42 @@
+<div class="panel panel-default complete">
+    <div class="panel-heading">
+        <a class="btn btn-primary btn-xs map-modal pull-right">Ubicar en el mapa</a>
+        <div class="panel-title">
+            Posición
+        </div>
+    </div>
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-md-12 position-header">
+                Inicio
+            </div>
+            <div class="col-sm-6">
+                <label for="start-lat">Latitud</label>
+                <input type="text" class="form-control geo-info start" name="lat" id="start-lat" title="{{ lat_formats }}" autocomplete="off" value="{{ start_coords.lat }}">
+                <sup class="start-lat-parse"></sup>
+            </div>
+            <div class="col-md-6">
+                <label for="start-lng">Longitud</label>
+                <input type="text" class="form-control geo-info start" name="lng" id="start-lon" title="{{ lon_formats }}" autocomplete="off" value="{{ start_coords.lon }}">
+                <sup class="start-lon-parse"> </sup>
+            </div>
+
+            <div class="col-md-12 position-header">
+                Final
+            </div>
+            <div class="col-md-6">
+                <label for="end-lat">Latitud</label>
+                <input type="text" class="form-control geo-info end" name="lat" id="end-lat" title="{{ lat_formats }}" autocomplete="off" value="{{ end_coords.lat }}">
+                <sup class="end-lat-parse"> </sup>
+            </div>
+            <div class="col-md-6">
+                <label for="end-lng">Longitud</label>
+                <input type="text" class="form-control geo-info end" name="lng" id="end-lon" title="{{ lon_formats }}" autocomplete="off" value="{{ end_coords.lon }}">
+                <sup class="end-lon-parse"> </sup>
+            </div>
+            <div class="col-md-6">
+                <a class="btn btn-primary btn-xs remove-endpoint">Quitar Punto final</a>
+            </div>
+        </div>
+    </div>
+</div>

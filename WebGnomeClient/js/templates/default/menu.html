@@ -1,0 +1,61 @@
+<div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-main">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="#" title="Regresar a la página de inicio">
+    <img class="navbar-gnome-icon" src="img/GNOME_favicon_32x32.png">WebGNOME-CCA</a>
+</div>
+
+<div class="collapse navbar-collapse" id="navbar-main">
+    <ul class="nav navbar-nav">
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" title="Crer un nuevo modelo" data-toggle="dropdown"><span class="glyphicon glyphicon-plus"></span> Nuevo <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                <li><a href="#" class="locations" title="">Seleccionar una Ubicación Precargada</a></li>
+                <li><a href="#" class="setup" title="">Configuración Manual</a></li>
+                <li><a href="#" class="load" title="">Cargar una Ubicación Guardada</a></li>
+            </ul>
+        </li>
+
+        <li><a href="#" class="edit" title="Editar modelo"><span class="glyphicon glyphicon-pencil"></span>Editar</a></li>
+
+        {% if(can_persist) { %}
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" title="Guardar modelo actual"><span class="glyphicon glyphicon-floppy-save"></span>Guardar<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#" class="save" title="">Descargar a mi computadora</a></li>
+
+                </ul>
+            </li>
+        {% } else { %}
+            <li><a href="#" class="save" title="Guardar modelo actual"><span class="glyphicon glyphicon-floppy-save"> </span> Guardar</a></li>
+        {% } %}
+
+
+    </ul>
+
+    <div class="view-toggle" width="90%">
+        <div class="toggle">
+            <div title='Setup View' class="view config"></div>
+            <div title='Map View' class="view trajectory"></div>
+            <div title='Model View' class="view model"></div>
+            <div title='Fate View' class="view fate"></div>
+            <div class="switch"></div>
+        </div>
+    </div>
+
+    <div class="btn-group menu-button export">
+        <a class="btn btn-default export dropdown-toggle" data-toggle="dropdown">Exportar <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+            <li><a href="#" class="netcdf">NetCDF</a></li>
+            <li><a href="#" class="kmz">KMZ</a></li>
+            <li><a href="#" class="shape">Shape</a></li>
+        </ul>
+    </div>
+
+    <a class="btn btn-success menu-button run">Ejectuar <span class="glyphicon glyphicon-play"> </span></a>
+    <a class="rewind btn btn-warning"><span class="glyphicon glyphicon-backward"></span> Regresar</a>
+</div>

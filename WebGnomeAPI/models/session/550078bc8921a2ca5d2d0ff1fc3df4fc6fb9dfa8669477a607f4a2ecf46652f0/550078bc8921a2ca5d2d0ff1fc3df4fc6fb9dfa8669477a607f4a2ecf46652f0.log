@@ -1,0 +1,54 @@
+2020-04-19 19:40:08,775 DEBUG sRxRlyBvQFSPDQXu5wF4V8hRCJk= [geventwebsocket.handler] Closed WebSocket
+2020-04-19 19:40:10,334 INFO  sRxRlyBvQFSPDQXu5wF4V8hRCJk= [webgnome_api.views.model]   session lock acquired (sess:140108279525488, thr_id: 140108849710464)
+2020-04-19 19:40:10,340 INFO  sRxRlyBvQFSPDQXu5wF4V8hRCJk= [webgnome_api.views.model]   session lock released (sess:140108279525488, thr_id: 140108849710464)
+2020-04-19 19:40:10,416 INFO  sRxRlyBvQFSPDQXu5wF4V8hRCJk= [webgnome_api.views.socket_step]   session lock acquired (sess:140108279525488, thr_id: 140108849710464)
+2020-04-19 19:40:10,417 INFO  sRxRlyBvQFSPDQXu5wF4V8hRCJk= [gnome.model.Model] 8944 - rewound model - Model
+2020-04-19 19:40:10,418 INFO  sRxRlyBvQFSPDQXu5wF4V8hRCJk= [webgnome_api.views.socket_step]   session lock released (sess:140108279525488, thr_id: 140108849710464)
+2020-04-19 19:40:11,162 DEBUG sRxRlyBvQFSPDQXu5wF4V8hRCJk= [geventwebsocket.handler] Initializing WebSocket
+2020-04-19 19:40:11,162 DEBUG sRxRlyBvQFSPDQXu5wF4V8hRCJk= [geventwebsocket.handler] Validating WebSocket request
+2020-04-19 19:40:11,163 DEBUG sRxRlyBvQFSPDQXu5wF4V8hRCJk= [geventwebsocket.handler] Attempting to upgrade connection
+2020-04-19 19:40:11,163 DEBUG sRxRlyBvQFSPDQXu5wF4V8hRCJk= [geventwebsocket.handler] WebSocket request accepted, switching protocols
+2020-04-19 19:40:11,164 DEBUG sRxRlyBvQFSPDQXu5wF4V8hRCJk= [socketio.virtsocket] Spawning sub-Socket Greenlet: send_into_ws
+2020-04-19 19:40:11,165 DEBUG sRxRlyBvQFSPDQXu5wF4V8hRCJk= [socketio.virtsocket] Spawning sub-Socket Greenlet: read_from_ws
+2020-04-19 19:40:11,165 DEBUG sRxRlyBvQFSPDQXu5wF4V8hRCJk= [socketio.virtsocket] Spawning sub-Socket Greenlet: _heartbeat
+2020-04-19 19:40:11,166 DEBUG sRxRlyBvQFSPDQXu5wF4V8hRCJk= [socketio.virtsocket] Spawning sub-Socket Greenlet: _heartbeat_timeout
+2020-04-19 19:40:11,242 INFO  sRxRlyBvQFSPDQXu5wF4V8hRCJk= [root] 3 handlers attached
+2020-04-19 19:40:11,243 INFO  sRxRlyBvQFSPDQXu5wF4V8hRCJk= [root] sessid='134364244112' connected client_queue[2] server_queue[1] hits=1
+2020-04-19 19:40:11,244 INFO  sRxRlyBvQFSPDQXu5wF4V8hRCJk= [root] existing handler for the session 550078bc8921a2ca5d2d0ff1fc3df4fc6fb9dfa8669477a607f4a2ecf46652f0 found
+2020-04-19 19:41:00,158 DEBUG sRxRlyBvQFSPDQXu5wF4V8hRCJk= [socketio.virtsocket] heartbeat timed out, killing socket
+2020-04-19 19:41:00,160 DEBUG sRxRlyBvQFSPDQXu5wF4V8hRCJk= [socketio.virtsocket] Calling disconnect() on sessid='134364244112' client_queue[19] server_queue[1] hits=1
+2020-04-19 19:41:00,161 DEBUG sRxRlyBvQFSPDQXu5wF4V8hRCJk= [socketio.virtsocket] Removing sessid='134364244112' client_queue[19] server_queue[1] hits=1 from server sockets
+2020-04-19 19:44:13,173 DEBUG sRxRlyBvQFSPDQXu5wF4V8hRCJk= [geventwebsocket.handler] Closed WebSocket
+2020-04-19 19:44:14,962 INFO  sRxRlyBvQFSPDQXu5wF4V8hRCJk= [webgnome_api.views.model]   session lock acquired (sess:140108279525488, thr_id: 140108849710464)
+2020-04-19 19:44:14,967 INFO  sRxRlyBvQFSPDQXu5wF4V8hRCJk= [webgnome_api.views.model]   session lock released (sess:140108279525488, thr_id: 140108849710464)
+2020-04-19 19:44:15,057 INFO  sRxRlyBvQFSPDQXu5wF4V8hRCJk= [webgnome_api.views.socket_step]   session lock acquired (sess:140108279525488, thr_id: 140108849710464)
+2020-04-19 19:44:15,058 INFO  sRxRlyBvQFSPDQXu5wF4V8hRCJk= [gnome.model.Model] 8944 - rewound model - Model
+2020-04-19 19:44:15,059 INFO  sRxRlyBvQFSPDQXu5wF4V8hRCJk= [webgnome_api.views.socket_step]   session lock released (sess:140108279525488, thr_id: 140108849710464)
+2020-04-19 19:44:15,730 DEBUG sRxRlyBvQFSPDQXu5wF4V8hRCJk= [geventwebsocket.handler] Initializing WebSocket
+2020-04-19 19:44:15,731 DEBUG sRxRlyBvQFSPDQXu5wF4V8hRCJk= [geventwebsocket.handler] Validating WebSocket request
+2020-04-19 19:44:15,731 DEBUG sRxRlyBvQFSPDQXu5wF4V8hRCJk= [geventwebsocket.handler] Attempting to upgrade connection
+2020-04-19 19:44:15,731 DEBUG sRxRlyBvQFSPDQXu5wF4V8hRCJk= [geventwebsocket.handler] WebSocket request accepted, switching protocols
+2020-04-19 19:44:15,732 DEBUG sRxRlyBvQFSPDQXu5wF4V8hRCJk= [socketio.virtsocket] Spawning sub-Socket Greenlet: send_into_ws
+2020-04-19 19:44:15,733 DEBUG sRxRlyBvQFSPDQXu5wF4V8hRCJk= [socketio.virtsocket] Spawning sub-Socket Greenlet: read_from_ws
+2020-04-19 19:44:15,733 DEBUG sRxRlyBvQFSPDQXu5wF4V8hRCJk= [socketio.virtsocket] Spawning sub-Socket Greenlet: _heartbeat
+2020-04-19 19:44:15,734 DEBUG sRxRlyBvQFSPDQXu5wF4V8hRCJk= [socketio.virtsocket] Spawning sub-Socket Greenlet: _heartbeat_timeout
+2020-04-19 19:44:15,910 INFO  sRxRlyBvQFSPDQXu5wF4V8hRCJk= [root] 3 handlers attached
+2020-04-19 19:44:15,910 INFO  sRxRlyBvQFSPDQXu5wF4V8hRCJk= [root] sessid='134364244112' connected client_queue[2] server_queue[1] hits=1
+2020-04-19 19:44:15,911 INFO  sRxRlyBvQFSPDQXu5wF4V8hRCJk= [root] existing handler for the session 550078bc8921a2ca5d2d0ff1fc3df4fc6fb9dfa8669477a607f4a2ecf46652f0 found
+2020-04-19 19:44:56,176 DEBUG sRxRlyBvQFSPDQXu5wF4V8hRCJk= [socketio.virtsocket] heartbeat timed out, killing socket
+2020-04-19 19:44:56,177 DEBUG sRxRlyBvQFSPDQXu5wF4V8hRCJk= [socketio.virtsocket] Calling disconnect() on sessid='134364244112' client_queue[19] server_queue[1] hits=1
+2020-04-19 19:44:56,178 DEBUG sRxRlyBvQFSPDQXu5wF4V8hRCJk= [socketio.virtsocket] Removing sessid='134364244112' client_queue[19] server_queue[1] hits=1 from server sockets
+2020-04-19 20:13:13,274 DEBUG sRxRlyBvQFSPDQXu5wF4V8hRCJk= [socketio.virtsocket] heartbeat timed out, killing socket
+2020-04-19 20:13:13,274 DEBUG sRxRlyBvQFSPDQXu5wF4V8hRCJk= [socketio.virtsocket] Calling disconnect() on sessid='134364244112' client_queue[3] server_queue[1] hits=1
+2020-04-19 20:13:13,278 DEBUG sRxRlyBvQFSPDQXu5wF4V8hRCJk= [socketio.virtsocket] Removing sessid='134364244112' client_queue[4] server_queue[1] hits=1 from server sockets
+2020-04-19 20:49:16,884 DEBUG sRxRlyBvQFSPDQXu5wF4V8hRCJk= [geventwebsocket.handler] Initializing WebSocket
+2020-04-19 20:49:16,885 DEBUG sRxRlyBvQFSPDQXu5wF4V8hRCJk= [geventwebsocket.handler] Validating WebSocket request
+2020-04-19 20:49:16,886 DEBUG sRxRlyBvQFSPDQXu5wF4V8hRCJk= [geventwebsocket.handler] Attempting to upgrade connection
+2020-04-19 20:49:16,886 DEBUG sRxRlyBvQFSPDQXu5wF4V8hRCJk= [geventwebsocket.handler] WebSocket request accepted, switching protocols
+2020-04-19 20:49:16,887 DEBUG sRxRlyBvQFSPDQXu5wF4V8hRCJk= [socketio.virtsocket] Spawning sub-Socket Greenlet: send_into_ws
+2020-04-19 20:49:16,887 DEBUG sRxRlyBvQFSPDQXu5wF4V8hRCJk= [socketio.virtsocket] Spawning sub-Socket Greenlet: read_from_ws
+2020-04-19 20:49:16,888 DEBUG sRxRlyBvQFSPDQXu5wF4V8hRCJk= [socketio.virtsocket] Spawning sub-Socket Greenlet: _heartbeat
+2020-04-19 20:49:16,888 DEBUG sRxRlyBvQFSPDQXu5wF4V8hRCJk= [socketio.virtsocket] Spawning sub-Socket Greenlet: _heartbeat_timeout
+2020-04-19 20:49:17,314 INFO  sRxRlyBvQFSPDQXu5wF4V8hRCJk= [root] 3 handlers attached
+2020-04-19 20:49:17,315 INFO  sRxRlyBvQFSPDQXu5wF4V8hRCJk= [root] sessid='763774618977' connected client_queue[2] hits=1
+2020-04-19 20:49:17,315 INFO  sRxRlyBvQFSPDQXu5wF4V8hRCJk= [root] existing handler for the session 550078bc8921a2ca5d2d0ff1fc3df4fc6fb9dfa8669477a607f4a2ecf46652f0 found
